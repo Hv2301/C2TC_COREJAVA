@@ -13,10 +13,10 @@ public class TypeCastingDemo {
 		float f = 10.532f;
 		long l = (long)f;
 		double d = f;
-		System.out.println(l);
 		byte b =12;
-		short s = b; //widening
-		System.out.println(b);
+		short s = b; 
+		int a = s;
+		System.out.println(s);
 		
 	}
 
